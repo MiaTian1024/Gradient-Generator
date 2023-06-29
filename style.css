@@ -1,8 +1,10 @@
-
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 * {
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
@@ -10,7 +12,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: coral;
+    background: linear-gradient(to left top, #5665E9, #A271F8);
 }
 
 .wrapper{
@@ -20,7 +22,7 @@ body{
     background-color: #fff;
     width:500px;
     border-radius: 10px;
-    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.1);
+    box-shadow: 0 15px 25px rgb(0, 0, 0, 0.1);
     padding:30px;
 }
 
@@ -29,7 +31,8 @@ body{
     height:250px;
     width: 100%;
     background-color: aqua;
-    border-radius: 10px;
+    border-radius: 7px;
+    background: linear-gradient(to left top, #5665E9, #A271F8);
 }
 
 .wrapper .panel{
@@ -55,7 +58,7 @@ label{
 
 .direction .select-box{
     height: 50px;
-    width:180px;
+    width:190px;
     margin-top:10px;
     border: 1px solid;
     border-radius: 5px;
@@ -66,7 +69,7 @@ label{
 .direction select{
     border: none;
     outline:none;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .colors .color-box{
@@ -81,6 +84,7 @@ label{
     height:50px;
     margin-left:10px;
     padding:2px;
+    cursor: pointer;
 }
 
 .info{
@@ -116,11 +120,18 @@ label{
 }
 
 .refreshBtn{
-    background-color: dimgrey;
+    background-color: #6C757D;
 }
+
+.refreshBtn:hover {
+    background: #5f666d;
+  }
 
 .copyBtn{
-    background-color:forestgreen;
+    background-color:#8A6CFF;
 }
 
+.copyBtn:hover {
+    background: #704dff;
+}
 
