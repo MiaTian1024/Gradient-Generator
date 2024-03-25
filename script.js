@@ -32,8 +32,8 @@ colorInput.forEach((input) => {
     input.addEventListener("input", () => generateGradient(false))
 })
 
-directionMenu.addEventListener("change", () => generateGradient(false))
 
+directionMenu.addEventListener("change", () => generateGradient(false))
 refreshBtn.addEventListener("click", () => generateGradient(true))
 copyBtn.addEventListener("click", copyCode)
 
